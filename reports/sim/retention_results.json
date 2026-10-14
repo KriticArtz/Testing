@@ -1,0 +1,823 @@
+{
+  "disclaimer": "Hypothetical scenario model; all inputs are assumptions.",
+  "prices": {
+    "monthly": 9.99,
+    "annual": 79.99
+  },
+  "base_signups": [
+    5000,
+    2500,
+    2000,
+    1800,
+    1600,
+    1500,
+    1500,
+    1600,
+    2500,
+    2000,
+    1800,
+    1700,
+    4000,
+    2200,
+    1900,
+    1800,
+    1700,
+    1600,
+    1600,
+    1700,
+    2600,
+    2100,
+    1900,
+    1800
+  ],
+  "scenarios": {
+    "1_baseline": {
+      "inputs": {
+        "desc": "Launch as-is: generic onboarding, fixed-schedule nudges, annual offered at sign-up",
+        "activation": 0.35,
+        "trial_to_paid": 0.12,
+        "monthly_churn": 0.1,
+        "annual_share": 0.3,
+        "annual_renewal": 0.55,
+        "referral_per_payer": 0.03,
+        "llm": 1.5,
+        "sms_msgs": 90,
+        "app_store_share": 0.7
+      },
+      "description": "Launch as-is: generic onboarding, fixed-schedule nudges, annual offered at sign-up",
+      "unit_cost_per_payer_month": 3.04,
+      "contribution_per_monthly_payer": 5.72,
+      "avg_paid_lifetime_months": 10.0,
+      "ltv_monthly_payer": 57,
+      "max_cac_one_third_first_year": 13.69,
+      "paying_month_12": 746,
+      "paying_month_24": 1043,
+      "run_rate_revenue_month_24_annualized": 99228,
+      "total_signups_24m": 50891,
+      "revenue_24m": 165760,
+      "gross_profit_24m": 75330,
+      "gross_margin_pct": 45.4,
+      "timeline": [
+        {
+          "month": 1,
+          "signups": 5000,
+          "paying": 210,
+          "revenue": 6508,
+          "gross_profit": 4430
+        },
+        {
+          "month": 2,
+          "signups": 2506,
+          "paying": 301,
+          "revenue": 4584,
+          "gross_profit": 2322
+        },
+        {
+          "month": 3,
+          "signups": 2009,
+          "paying": 364,
+          "revenue": 4467,
+          "gross_profit": 2007
+        },
+        {
+          "month": 4,
+          "signups": 1811,
+          "paying": 416,
+          "revenue": 4555,
+          "gross_profit": 1947
+        },
+        {
+          "month": 5,
+          "signups": 1612,
+          "paying": 456,
+          "revenue": 4556,
+          "gross_profit": 1870
+        },
+        {
+          "month": 6,
+          "signups": 1514,
+          "paying": 491,
+          "revenue": 4608,
+          "gross_profit": 1860
+        },
+        {
+          "month": 7,
+          "signups": 1515,
+          "paying": 523,
+          "revenue": 4745,
+          "gross_profit": 1919
+        },
+        {
+          "month": 8,
+          "signups": 1616,
+          "paying": 559,
+          "revenue": 5000,
+          "gross_profit": 2051
+        },
+        {
+          "month": 9,
+          "signups": 2517,
+          "paying": 631,
+          "revenue": 6310,
+          "gross_profit": 2882
+        },
+        {
+          "month": 10,
+          "signups": 2019,
+          "paying": 678,
+          "revenue": 6024,
+          "gross_profit": 2482
+        },
+        {
+          "month": 11,
+          "signups": 1820,
+          "paying": 715,
+          "revenue": 5959,
+          "gross_profit": 2343
+        },
+        {
+          "month": 12,
+          "signups": 1721,
+          "paying": 746,
+          "revenue": 5953,
+          "gross_profit": 2282
+        },
+        {
+          "month": 13,
+          "signups": 4022,
+          "paying": 844,
+          "revenue": 11803,
+          "gross_profit": 6856
+        },
+        {
+          "month": 14,
+          "signups": 2225,
+          "paying": 873,
+          "revenue": 8765,
+          "gross_profit": 4124
+        },
+        {
+          "month": 15,
+          "signups": 1926,
+          "paying": 891,
+          "revenue": 8241,
+          "gross_profit": 3683
+        },
+        {
+          "month": 16,
+          "signups": 1827,
+          "paying": 906,
+          "revenue": 8049,
+          "gross_profit": 3540
+        },
+        {
+          "month": 17,
+          "signups": 1727,
+          "paying": 917,
+          "revenue": 7825,
+          "gross_profit": 3374
+        },
+        {
+          "month": 18,
+          "signups": 1628,
+          "paying": 925,
+          "revenue": 7629,
+          "gross_profit": 3240
+        },
+        {
+          "month": 19,
+          "signups": 1628,
+          "paying": 933,
+          "revenue": 7593,
+          "gross_profit": 3229
+        },
+        {
+          "month": 20,
+          "signups": 1728,
+          "paying": 946,
+          "revenue": 7746,
+          "gross_profit": 3348
+        },
+        {
+          "month": 21,
+          "signups": 2628,
+          "paying": 991,
+          "revenue": 9414,
+          "gross_profit": 4577
+        },
+        {
+          "month": 22,
+          "signups": 2130,
+          "paying": 1015,
+          "revenue": 8724,
+          "gross_profit": 3888
+        },
+        {
+          "month": 23,
+          "signups": 1930,
+          "paying": 1031,
+          "revenue": 8434,
+          "gross_profit": 3611
+        },
+        {
+          "month": 24,
+          "signups": 1831,
+          "paying": 1043,
+          "revenue": 8269,
+          "gross_profit": 3464
+        }
+      ]
+    },
+    "2_retention_fixes": {
+      "inputs": {
+        "desc": "+ text-first onboarding, adaptive check-ins, fresh-start flow, weekly review, pause/downgrade, annual offered after 2nd review",
+        "activation": 0.5,
+        "trial_to_paid": 0.15,
+        "monthly_churn": 0.065,
+        "annual_share": 0.45,
+        "annual_renewal": 0.68,
+        "referral_per_payer": 0.03,
+        "llm": 1.5,
+        "sms_msgs": 90,
+        "app_store_share": 0.7
+      },
+      "description": "+ text-first onboarding, adaptive check-ins, fresh-start flow, weekly review, pause/downgrade, annual offered after 2nd review",
+      "unit_cost_per_payer_month": 3.04,
+      "contribution_per_monthly_payer": 5.72,
+      "avg_paid_lifetime_months": 15.4,
+      "ltv_monthly_payer": 88,
+      "max_cac_one_third_first_year": 16.25,
+      "paying_month_12": 1595,
+      "paying_month_24": 2514,
+      "run_rate_revenue_month_24_annualized": 225768,
+      "total_signups_24m": 51470,
+      "revenue_24m": 360885,
+      "gross_profit_24m": 192916,
+      "gross_margin_pct": 53.5,
+      "timeline": [
+        {
+          "month": 1,
+          "signups": 5000,
+          "paying": 375,
+          "revenue": 15559,
+          "gross_profit": 12025
+        },
+        {
+          "month": 2,
+          "signups": 2511,
+          "paying": 550,
+          "revenue": 9741,
+          "gross_profit": 6247
+        },
+        {
+          "month": 3,
+          "signups": 2016,
+          "paying": 682,
+          "revenue": 9044,
+          "gross_profit": 5236
+        },
+        {
+          "month": 4,
+          "signups": 1820,
+          "paying": 795,
+          "revenue": 9031,
+          "gross_profit": 4920
+        },
+        {
+          "month": 5,
+          "signups": 1624,
+          "paying": 890,
+          "revenue": 8902,
+          "gross_profit": 4579
+        },
+        {
+          "month": 6,
+          "signups": 1527,
+          "paying": 975,
+          "revenue": 8975,
+          "gross_profit": 4450
+        },
+        {
+          "month": 7,
+          "signups": 1529,
+          "paying": 1058,
+          "revenue": 9296,
+          "gross_profit": 4535
+        },
+        {
+          "month": 8,
+          "signups": 1632,
+          "paying": 1147,
+          "revenue": 9910,
+          "gross_profit": 4842
+        },
+        {
+          "month": 9,
+          "signups": 2534,
+          "paying": 1301,
+          "revenue": 13033,
+          "gross_profit": 7061
+        },
+        {
+          "month": 10,
+          "signups": 2039,
+          "paying": 1414,
+          "revenue": 12134,
+          "gross_profit": 5944
+        },
+        {
+          "month": 11,
+          "signups": 1842,
+          "paying": 1509,
+          "revenue": 11931,
+          "gross_profit": 5526
+        },
+        {
+          "month": 12,
+          "signups": 1745,
+          "paying": 1595,
+          "revenue": 11936,
+          "gross_profit": 5327
+        },
+        {
+          "month": 13,
+          "signups": 4048,
+          "paying": 1797,
+          "revenue": 28529,
+          "gross_profit": 19138
+        },
+        {
+          "month": 14,
+          "signups": 2254,
+          "paying": 1884,
+          "revenue": 19499,
+          "gross_profit": 10943
+        },
+        {
+          "month": 15,
+          "signups": 1957,
+          "paying": 1952,
+          "revenue": 18022,
+          "gross_profit": 9522
+        },
+        {
+          "month": 16,
+          "signups": 1859,
+          "paying": 2013,
+          "revenue": 17576,
+          "gross_profit": 9028
+        },
+        {
+          "month": 17,
+          "signups": 1760,
+          "paying": 2067,
+          "revenue": 17076,
+          "gross_profit": 8500
+        },
+        {
+          "month": 18,
+          "signups": 1662,
+          "paying": 2115,
+          "revenue": 16710,
+          "gross_profit": 8108
+        },
+        {
+          "month": 19,
+          "signups": 1663,
+          "paying": 2162,
+          "revenue": 16792,
+          "gross_profit": 8098
+        },
+        {
+          "month": 20,
+          "signups": 1765,
+          "paying": 2215,
+          "revenue": 17364,
+          "gross_profit": 8480
+        },
+        {
+          "month": 21,
+          "signups": 2666,
+          "paying": 2325,
+          "revenue": 21929,
+          "gross_profit": 12104
+        },
+        {
+          "month": 22,
+          "signups": 2170,
+          "paying": 2400,
+          "revenue": 19918,
+          "gross_profit": 10112
+        },
+        {
+          "month": 23,
+          "signups": 1972,
+          "paying": 2461,
+          "revenue": 19165,
+          "gross_profit": 9306
+        },
+        {
+          "month": 24,
+          "signups": 1874,
+          "paying": 2514,
+          "revenue": 18814,
+          "gross_profit": 8885
+        }
+      ]
+    },
+    "3_retention_plus_virality": {
+      "inputs": {
+        "desc": "+ accountability buddy invites and shareable weekly scorecard",
+        "activation": 0.5,
+        "trial_to_paid": 0.15,
+        "monthly_churn": 0.06,
+        "annual_share": 0.45,
+        "annual_renewal": 0.7,
+        "referral_per_payer": 0.12,
+        "llm": 1.5,
+        "sms_msgs": 90,
+        "app_store_share": 0.7
+      },
+      "description": "+ accountability buddy invites and shareable weekly scorecard",
+      "unit_cost_per_payer_month": 3.04,
+      "contribution_per_monthly_payer": 5.72,
+      "avg_paid_lifetime_months": 16.7,
+      "ltv_monthly_payer": 95,
+      "max_cac_one_third_first_year": 16.67,
+      "paying_month_12": 1683,
+      "paying_month_24": 2784,
+      "run_rate_revenue_month_24_annualized": 255624,
+      "total_signups_24m": 54970,
+      "revenue_24m": 388787,
+      "gross_profit_24m": 208701,
+      "gross_margin_pct": 53.7,
+      "timeline": [
+        {
+          "month": 1,
+          "signups": 5000,
+          "paying": 375,
+          "revenue": 15559,
+          "gross_profit": 12025
+        },
+        {
+          "month": 2,
+          "signups": 2545,
+          "paying": 554,
+          "revenue": 9856,
+          "gross_profit": 6334
+        },
+        {
+          "month": 3,
+          "signups": 2066,
+          "paying": 691,
+          "revenue": 9237,
+          "gross_profit": 5371
+        },
+        {
+          "month": 4,
+          "signups": 1883,
+          "paying": 810,
+          "revenue": 9298,
+          "gross_profit": 5098
+        },
+        {
+          "month": 5,
+          "signups": 1697,
+          "paying": 912,
+          "revenue": 9243,
+          "gross_profit": 4797
+        },
+        {
+          "month": 6,
+          "signups": 1609,
+          "paying": 1004,
+          "revenue": 9389,
+          "gross_profit": 4706
+        },
+        {
+          "month": 7,
+          "signups": 1621,
+          "paying": 1096,
+          "revenue": 9785,
+          "gross_profit": 4828
+        },
+        {
+          "month": 8,
+          "signups": 1731,
+          "paying": 1193,
+          "revenue": 10473,
+          "gross_profit": 5173
+        },
+        {
+          "month": 9,
+          "signups": 2643,
+          "paying": 1357,
+          "revenue": 13676,
+          "gross_profit": 7432
+        },
+        {
+          "month": 10,
+          "signups": 2163,
+          "paying": 1479,
+          "revenue": 12878,
+          "gross_profit": 6369
+        },
+        {
+          "month": 11,
+          "signups": 1978,
+          "paying": 1585,
+          "revenue": 12770,
+          "gross_profit": 5999
+        },
+        {
+          "month": 12,
+          "signups": 1890,
+          "paying": 1683,
+          "revenue": 12867,
+          "gross_profit": 5845
+        },
+        {
+          "month": 13,
+          "signups": 4202,
+          "paying": 1901,
+          "revenue": 29823,
+          "gross_profit": 19929
+        },
+        {
+          "month": 14,
+          "signups": 2428,
+          "paying": 2003,
+          "revenue": 20853,
+          "gross_profit": 11741
+        },
+        {
+          "month": 15,
+          "signups": 2140,
+          "paying": 2085,
+          "revenue": 19485,
+          "gross_profit": 10369
+        },
+        {
+          "month": 16,
+          "signups": 2050,
+          "paying": 2161,
+          "revenue": 19151,
+          "gross_profit": 9927
+        },
+        {
+          "month": 17,
+          "signups": 1959,
+          "paying": 2230,
+          "revenue": 18759,
+          "gross_profit": 9449
+        },
+        {
+          "month": 18,
+          "signups": 1868,
+          "paying": 2293,
+          "revenue": 18500,
+          "gross_profit": 9106
+        },
+        {
+          "month": 19,
+          "signups": 1875,
+          "paying": 2354,
+          "revenue": 18688,
+          "gross_profit": 9146
+        },
+        {
+          "month": 20,
+          "signups": 1983,
+          "paying": 2422,
+          "revenue": 19371,
+          "gross_profit": 9582
+        },
+        {
+          "month": 21,
+          "signups": 2891,
+          "paying": 2547,
+          "revenue": 24092,
+          "gross_profit": 13298
+        },
+        {
+          "month": 22,
+          "signups": 2406,
+          "paying": 2638,
+          "revenue": 22189,
+          "gross_profit": 11354
+        },
+        {
+          "month": 23,
+          "signups": 2217,
+          "paying": 2715,
+          "revenue": 21545,
+          "gross_profit": 10598
+        },
+        {
+          "month": 24,
+          "signups": 2126,
+          "paying": 2784,
+          "revenue": 21302,
+          "gross_profit": 10225
+        }
+      ]
+    },
+    "4_full_playbook": {
+      "inputs": {
+        "desc": "+ cheap-model routing, push-default with capped SMS, web billing",
+        "activation": 0.5,
+        "trial_to_paid": 0.15,
+        "monthly_churn": 0.06,
+        "annual_share": 0.45,
+        "annual_renewal": 0.7,
+        "referral_per_payer": 0.12,
+        "llm": 0.6,
+        "sms_msgs": 50,
+        "app_store_share": 0.35
+      },
+      "description": "+ cheap-model routing, push-default with capped SMS, web billing",
+      "unit_cost_per_payer_month": 1.7,
+      "contribution_per_monthly_payer": 7.38,
+      "avg_paid_lifetime_months": 16.7,
+      "ltv_monthly_payer": 123,
+      "max_cac_one_third_first_year": 21.49,
+      "paying_month_12": 1683,
+      "paying_month_24": 2784,
+      "run_rate_revenue_month_24_annualized": 255624,
+      "total_signups_24m": 54970,
+      "revenue_24m": 388787,
+      "gross_profit_24m": 271813,
+      "gross_margin_pct": 69.9,
+      "timeline": [
+        {
+          "month": 1,
+          "signups": 5000,
+          "paying": 375,
+          "revenue": 15559,
+          "gross_profit": 13102
+        },
+        {
+          "month": 2,
+          "signups": 2545,
+          "paying": 554,
+          "revenue": 9856,
+          "gross_profit": 7385
+        },
+        {
+          "month": 3,
+          "signups": 2066,
+          "paying": 691,
+          "revenue": 9237,
+          "gross_profit": 6555
+        },
+        {
+          "month": 4,
+          "signups": 1883,
+          "paying": 810,
+          "revenue": 9298,
+          "gross_profit": 6422
+        },
+        {
+          "month": 5,
+          "signups": 1697,
+          "paying": 912,
+          "revenue": 9243,
+          "gross_profit": 6236
+        },
+        {
+          "month": 6,
+          "signups": 1609,
+          "paying": 1004,
+          "revenue": 9389,
+          "gross_profit": 6257
+        },
+        {
+          "month": 7,
+          "signups": 1621,
+          "paying": 1096,
+          "revenue": 9785,
+          "gross_profit": 6500
+        },
+        {
+          "month": 8,
+          "signups": 1731,
+          "paying": 1193,
+          "revenue": 10473,
+          "gross_profit": 6984
+        },
+        {
+          "month": 9,
+          "signups": 2643,
+          "paying": 1357,
+          "revenue": 13676,
+          "gross_profit": 9562
+        },
+        {
+          "month": 10,
+          "signups": 2163,
+          "paying": 1479,
+          "revenue": 12878,
+          "gross_profit": 8608
+        },
+        {
+          "month": 11,
+          "signups": 1978,
+          "paying": 1585,
+          "revenue": 12770,
+          "gross_profit": 8354
+        },
+        {
+          "month": 12,
+          "signups": 1890,
+          "paying": 1683,
+          "revenue": 12867,
+          "gross_profit": 8314
+        },
+        {
+          "month": 13,
+          "signups": 4202,
+          "paying": 1901,
+          "revenue": 29823,
+          "gross_profit": 23350
+        },
+        {
+          "month": 14,
+          "signups": 2428,
+          "paying": 2003,
+          "revenue": 20853,
+          "gross_profit": 14911
+        },
+        {
+          "month": 15,
+          "signups": 2140,
+          "paying": 2085,
+          "revenue": 19485,
+          "gross_profit": 13576
+        },
+        {
+          "month": 16,
+          "signups": 2050,
+          "paying": 2161,
+          "revenue": 19151,
+          "gross_profit": 13207
+        },
+        {
+          "month": 17,
+          "signups": 1959,
+          "paying": 2230,
+          "revenue": 18759,
+          "gross_profit": 12790
+        },
+        {
+          "month": 18,
+          "signups": 1868,
+          "paying": 2293,
+          "revenue": 18500,
+          "gross_profit": 12507
+        },
+        {
+          "month": 19,
+          "signups": 1875,
+          "paying": 2354,
+          "revenue": 18688,
+          "gross_profit": 12623
+        },
+        {
+          "month": 20,
+          "signups": 1983,
+          "paying": 2422,
+          "revenue": 19371,
+          "gross_profit": 13162
+        },
+        {
+          "month": 21,
+          "signups": 2891,
+          "paying": 2547,
+          "revenue": 24092,
+          "gross_profit": 17216
+        },
+        {
+          "month": 22,
+          "signups": 2406,
+          "paying": 2638,
+          "revenue": 22189,
+          "gross_profit": 15297
+        },
+        {
+          "month": 23,
+          "signups": 2217,
+          "paying": 2715,
+          "revenue": 21545,
+          "gross_profit": 14600
+        },
+        {
+          "month": 24,
+          "signups": 2126,
+          "paying": 2784,
+          "revenue": 21302,
+          "gross_profit": 14295
+        }
+      ]
+    }
+  }
+}
