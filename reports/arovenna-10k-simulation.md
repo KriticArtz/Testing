@@ -94,7 +94,7 @@ Per paying user per month (base case: $1.50 AI cost + ~90 SMS at ~$0.011 + $0.55
 | **$9.99/mo** | $9.99 | $1.04 | $3.04 | **$5.91** | **59%** |
 | $12.99/mo | $12.99 | $1.31 | $3.04 | $8.64 | 67% |
 | $69.99/yr | $5.83 | $0.53 | $2.43 | $2.87 | 49% |
-| $79.99/yr *(computed the same way)* | $6.67 | $0.58 | $2.43 | $3.66 | 55% |
+| $79.99/yr *(computed the same way)* | $6.67 | $0.61 | $2.43 | $3.62 | 54% |
 
 **Margin sensitivity at $9.99 / $69.99** (blended year-1 gross margin):
 
